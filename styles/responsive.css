@@ -1,0 +1,290 @@
+@media screen and (min-width: 1400px){
+  .container{
+    width: 1250px;
+  }
+  
+}
+@media screen and (max-width: 1400px) {
+  .home__photo{
+    width: 45rem;
+    height: 45rem;
+  }
+  .home{
+    height: 82rem;
+  }
+  .portfolio-img{
+    width: 34rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .home__title{
+    font-size: 4rem;
+  }
+.about{
+  flex-direction: column;
+}
+
+.service{
+  padding: 7rem 2rem;
+}
+.resume-list{
+  margin-right: 0 ;
+}
+.portfolio-list__item {
+  padding: 1rem 2rem;
+}
+  
+}
+@media screen and (max-width: 992px) {
+  .nav__logo {
+    font-size: 4rem;
+  }
+  .menu__item {
+    margin-left: 2rem;
+  }
+  .home .row{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .home__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .home{
+    margin-top: 6rem;
+    height: 86rem;
+  }
+  .home__photo{
+    width: 36rem;
+    height: 36rem;
+  }
+    .about__content,
+   .about__cover{
+    flex-basis: auto;
+  } 
+  .resume-list__text {
+  font-size: 1.8rem;
+  margin-left: 1.3rem;
+  }
+  .resume-list__item::after {
+    max-width: 20rem;
+  }
+  .resume-list{
+    min-height: 48rem;
+  }
+
+.portfolio-list__item {
+  padding: 1rem;
+}
+.contact__location{
+  margin-left: 0;
+}
+.contact__location{
+  display: none;
+}
+.contact{
+  margin-right: auto;
+}
+
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: all 250ms ease-in;
+    height: 0;
+    overflow: hidden;
+    background-color: var(--section-bg-color);
+  }
+  .nav__toggle-icon {
+    display: flex;
+  }
+  .menu--open {
+    height: 32rem;
+  }
+  .menu__item {
+    margin-top: 2rem;
+  }
+  .menu__item:last-child {
+    margin-bottom: 2rem;
+  }
+  .cover{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 200ms ease-in;
+    background-color: rgba(0, 0, 0, 10%);
+    opacity: 0;
+    z-index: -1;
+    }
+    .cover--show{
+      opacity: 1;
+      z-index: 99;
+    }
+    .header{
+      position: fixed;
+    }
+    .home{
+      margin-top: 2rem;
+    }
+    .home__photo{
+      width: 34rem;
+      height: 34rem;
+      border-width: 1.5rem;
+    }
+
+    .service{
+      padding: 4rem 1rem;
+     
+    }
+    .service__icon{
+      width: 5rem;
+    }
+
+   .resume-list{
+    flex-direction: row;
+     justify-content: flex-start; 
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: auto;
+    box-shadow: none;
+    gap: .5rem;
+    background-color: transparent;
+   }
+   .resume-list::before,
+   .resume-list__item::after,
+   .resume-content__title::before{
+    content: none;
+   }
+    .resume-list__item{
+      background-color: var(--section-bg-color);
+      border-radius: 4rem;
+      padding: 1rem 2rem;
+      margin-bottom: 0;
+      transition: all .2s ease-in;
+    }
+    .resume-list__icon{
+      display: none;
+    }
+    .resume-content{
+      border-left: 0;
+      padding-left: 0;
+    }
+    .resume-list__item--active{
+      background-color: var(--primary-color);
+    }
+    
+    .resume-content--show{
+      min-height: 40rem;
+
+    }
+ .portfolio-list__item{
+  padding: 1px 1.2rem;
+margin: 5px 0;
+ }
+  
+}
+
+@media screen and (max-width: 576px) {
+  *{
+    cursor: default;
+  }
+  .home__title{
+    font-size: 3.5rem;
+  }
+  .home__name ,
+  .home__famili{
+    font-size: 2rem;
+  }
+  .home__caption{
+    font-size: 1.4rem;
+  }
+  .home__links-wrapper{
+    justify-content: center;
+  }
+  .about__content{
+    padding: 2rem 0.5rem;
+  }
+  .about__links-wrapper {
+     justify-content: center;
+}
+.service{
+  padding: 5rem 2rem;
+}
+.service__wave{
+  display: none;
+}
+
+.package{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.footer__wrapper{
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+}
+.footer__copyright{
+  margin-top: 1rem;
+}
+}
+
+@media screen and (max-width: 410px) {
+  .home__photo{
+    width: 28rem;
+    height: 28rem;
+    border: 1.5rem;
+  }
+  .home__links-wrapper{
+    padding: 2rem;
+    width: 100%;
+  }
+  .home__link{
+    width: 100%;
+  }
+  .home__title {
+    font-size: 3rem;
+  }
+  .home__photo{
+    border-width: 1rem;
+    width: 26rem;
+    height: 26rem;
+  }
+  .about__links-wrapper{
+    
+    padding: 2rem;
+  }
+  .about__link{
+    width: 100%;
+  }
+  .service__wave{
+  display: block;
+}
+
+.resume-content__head {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.package{
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+.contact{
+  padding: 4.5rem 2rem;
+}
+}
